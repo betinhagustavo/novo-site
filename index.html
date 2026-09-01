@@ -1,15 +1,43 @@
 <!DOCTYPE html>
-
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW i3 - O Pioneiro Elétrico</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Meu blog tech</h1>
-<h2>Meu primeiro post</h2>
-<p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+    <header>
+        <div class="container">
+            <h1>BMW i3</h1>
+            <p>O pioneiro da mobilidade sustentável urbana</p>
+        </div>
+    </header>
 
+    <main class="container">
+        <section class="card">
+            <h2>Sobre o Veículo</h2>
+            <p>Lançado como o primeiro carro 100% elétrico de produção em massa da BMW, o <strong>BMW i3</strong> revolucionou o mercado com seu chassi de fibra de carbono (CFRP) e design futurista focado na sustentabilidade urbana.</p>
+        </section>
+
+        <section class="card">
+            <h2>Especificações Técnicas</h2>
+            <ul id="specs-list">
+                <!-- Preenchido dinamicamente pelo JavaScript -->
+            </ul>
+        </section>
+
+        <section class="card interaction">
+            <h2>O que achou do i3?</h2>
+            <button id="like-btn">Curtir este carro ❤️</button>
+            <p id="like-count">0 pessoas curtiram</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Fan Page BMW i3. Criado para o GitHub.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
